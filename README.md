@@ -7,4 +7,4 @@ Identifies high-risk suppliers 30-60 days in advance
 Provides actionable risk tiers for decision-making
 Reveals key risk drivers to guide mitigation strategies
 
-*NOTE* This is proof of concept, normally this would be connected to an ERP System for Automated constant daily monitoring.
+*NOTE* This is proof of concept, normally this would be connected to an ERP System for automated daily monitoring.
