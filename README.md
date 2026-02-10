@@ -1,10 +1,12 @@
-# Supplier-Risk-Scoring
-Supply chain disruptions cost companies an average of $184M annually (Source: McKinsey). Traditional supplier evaluation relies on quarterly reviews and subjective assessments. By the time issues appear in reports, production delays and quality problems have already impacted the bottom line.
-
-This project develops a data-driven, predictive approach to supplier risk management that:
-
-Identifies high-risk suppliers 30-60 days in advance
-Provides actionable risk tiers for decision-making
-Reveals key risk drivers to guide mitigation strategies
-
-*NOTE* This is proof of concept, normally this would be connected to an ERP System for automated daily monitoring.
+Predicting Supply Chain Delivery Delays with Machine Learning
+Overview
+Late deliveries are one of the biggest drivers of customer dissatisfaction and operational inefficiencies in supply chains.
+This personal project builds a machine learning system that predicts whether an order will be delivered late at the moment the order is placed, using only information available at checkout.
+Production Vision
+This project was designed as more than a notebook exercise.
+In a real production environment, this system would look like:
+Order placed in OMS / ERP
+Model scores delay risk via API (milliseconds)
+High-risk orders automatically flagged
+Operations teams intervene before shipment
+Optional proactive customer communication
