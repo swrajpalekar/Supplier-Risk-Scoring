@@ -1,12 +1,29 @@
-*Predicting Supply Chain Delivery Delays with Machine Learning*
-Overview
-Late deliveries are one of the biggest drivers of customer dissatisfaction and operational inefficiencies in supply chains.
-This personal project builds a machine learning system that predicts whether an order will be delivered late at the moment the order is placed, using only information available at checkout.
-Production Vision
-This project was designed as more than a notebook exercise.
-In a real production environment, this system would look like:
-Order placed in OMS / ERP
-Model scores delay risk via API (milliseconds)
-High-risk orders automatically flagged
-Operations teams intervene before shipment
-Optional proactive customer communication
+# Predicting Supply Chain Delivery Delays with Machine Learning
+
+## Overview
+Late deliveries are a major driver of customer dissatisfaction, SLA penalties, and operational inefficiency.
+
+This **project** builds a machine learning system that predicts whether an order will be delivered late **at the moment the order is placed**, using only information available at checkout.
+
+
+
+## Problem Statement
+Most organisations only discover delivery delays **after** they occur:
+- Customer complaints
+- Missed SLAs
+- Reactive operational firefighting
+
+This project explores a simple but high-impact question:
+
+**Can delivery delays be predicted early enough to act on them?**
+## Production Vision
+This project was designed beyond a notebook-only exercise.
+
+In a real-world environment:
+
+1. Order placed in OMS / ERP  
+2. Model scores delay risk via API (milliseconds)  
+3. High-risk orders flagged automatically  
+4. Operations intervene before shipment  
+5. Optional proactive customer communication  
+
