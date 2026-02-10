@@ -1,4 +1,4 @@
-Predicting Supply Chain Delivery Delays with Machine Learning
+*Predicting Supply Chain Delivery Delays with Machine Learning*
 Overview
 Late deliveries are one of the biggest drivers of customer dissatisfaction and operational inefficiencies in supply chains.
 This personal project builds a machine learning system that predicts whether an order will be delivered late at the moment the order is placed, using only information available at checkout.
